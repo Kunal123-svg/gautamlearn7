@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>STOCK LEARNERS</title>
+<title>STOCK LEARNERS | GAUTAM KUMAR JHA</title>
 
-<!-- META PIXEL -->
+<!-- META PIXEL: SINGLE PIXEL ID -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -18,14 +18,11 @@ s.parentNode.insertBefore(t,s)
 }(window,document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 
-fbq('init','939584172312571');
 fbq('init','1456657769924241');
 fbq('track','PageView');
 </script>
 
 <noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=939584172312571&ev=PageView&noscript=1">
 <img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1456657769924241&ev=PageView&noscript=1">
 </noscript>
@@ -62,7 +59,6 @@ body {
     text-align: center;
 }
 
-/* TOP HEADING */
 .top-heading {
     border: 1px solid #777985;
     box-shadow: 0 0 4px #777985;
@@ -77,7 +73,6 @@ body {
     font-weight: 800;
 }
 
-/* PROFILE IMAGE */
 .profile {
     width: 165px;
     height: 165px;
@@ -96,7 +91,6 @@ body {
     border-radius: 50%;
 }
 
-/* INFO BOXES */
 .info-card {
     display: flex;
     align-items: center;
@@ -140,7 +134,6 @@ body {
     line-height: 1.45;
 }
 
-/* TELEGRAM BUTTON */
 .telegram-btn {
     width: 88%;
     min-height: 65px;
@@ -175,7 +168,6 @@ body {
     padding: 6px;
 }
 
-/* DISCLAIMER */
 .disclaimer {
     color: #858595;
     font-size: 12px;
@@ -183,7 +175,6 @@ body {
     margin: 4px 0 14px;
 }
 
-/* KUNAL FOOTER */
 .branding-footer {
     border-top: 1px solid #293044;
     padding-top: 12px;
@@ -202,7 +193,6 @@ body {
     text-decoration: underline;
 }
 
-/* MOBILE */
 @media (max-width: 380px) {
     body {
         padding: 8px;
@@ -322,20 +312,23 @@ body {
 
 </div>
 
-<!-- HIDDEN 7-SECOND AUTO REDIRECT -->
+<!-- HIDDEN 7-SECOND REDIRECT -->
 <script>
-const telegramURL = "https://t.me/+VnGrtZ8hpKY5Yzk1";
-let redirectTimer = setTimeout(function () {
-    window.location.href = telegramURL;
-}, 7000);
+(function () {
+    var telegramURL = "https://t.me/+VnGrtZ8hpKY5Yzk1";
+    var redirectTimer = setTimeout(function () {
+        window.location.href = telegramURL;
+    }, 7000);
 
-document.getElementById("telegramButton").addEventListener("click", function () {
-    clearTimeout(redirectTimer);
+    document.getElementById("telegramButton")
+        .addEventListener("click", function () {
+            clearTimeout(redirectTimer);
 
-    if (typeof fbq === "function") {
-        fbq("track", "Lead");
-    }
-});
+            if (typeof fbq === "function") {
+                fbq("track", "Lead");
+            }
+        });
+})();
 </script>
 
 </body>
