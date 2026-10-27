@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>STOCK LEARNERS | GAUTAM KUMAR JHA</title>
+<title>STOCK LEARNERS</title>
 
-<!-- META PIXEL CODE: BOTH PIXEL IDs -->
+<!-- META PIXEL -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -15,12 +15,12 @@ n.push=n;n.loaded=!0;n.version='2.0';
 n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)
-}(window, document,'script',
+}(window,document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 
-fbq('init', '939584172312571');
-fbq('init', '1456657769924241');
-fbq('track', 'PageView');
+fbq('init','939584172312571');
+fbq('init','1456657769924241');
+fbq('track','PageView');
 </script>
 
 <noscript>
@@ -29,7 +29,7 @@ src="https://www.facebook.com/tr?id=939584172312571&ev=PageView&noscript=1">
 <img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1456657769924241&ev=PageView&noscript=1">
 </noscript>
-<!-- END META PIXEL CODE -->
+<!-- END META PIXEL -->
 
 <style>
 * {
@@ -44,90 +44,83 @@ html {
 
 body {
     background: #101010;
-    color: #ffffff;
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 18px 12px;
+    padding: 12px;
     min-height: 100vh;
 }
 
 .container {
     width: 100%;
-    max-width: 900px;
+    max-width: 450px;
     margin: 0 auto;
     background: #101827;
-    border: 3px solid #d8c925;
-    border-radius: 100px;
-    box-shadow:
-        0 0 9px #ffe600,
-        inset 0 0 4px rgba(255,255,255,0.08);
-    padding: 58px 20px 38px;
+    border: 2px solid #d8c925;
+    border-radius: 48px;
+    box-shadow: 0 0 8px #ffe600;
+    padding: 25px 14px 20px;
     text-align: center;
 }
 
 /* TOP HEADING */
 .top-heading {
-    width: 100%;
-    border: 2px solid #777985;
-    box-shadow: 0 0 4px rgba(255,255,255,0.2);
-    margin-bottom: 34px;
-    padding: 1px 5px;
+    border: 1px solid #777985;
+    box-shadow: 0 0 4px #777985;
+    margin-bottom: 20px;
+    padding: 5px;
 }
 
 .top-heading h1 {
     color: #76c5e8;
-    font-size: clamp(23px, 4.5vw, 36px);
+    font-size: 25px;
     line-height: 1.2;
     font-weight: 800;
 }
 
-/* PROFILE LOGO */
+/* PROFILE IMAGE */
 .profile {
-    width: 320px;
-    height: 320px;
-    max-width: 72vw;
-    max-height: 72vw;
-    margin: 0 auto 76px;
-    border: 5px solid #c6ce25;
+    width: 165px;
+    height: 165px;
+    margin: 0 auto 36px;
+    border: 4px solid #c6ce25;
     border-radius: 50%;
     overflow: hidden;
     background: #216b38;
-    box-shadow: 0 0 4px rgba(255,255,255,0.25);
 }
 
 .profile img {
+    display: block;
     width: 100%;
     height: 100%;
-    display: block;
     object-fit: cover;
-    object-position: center;
     border-radius: 50%;
 }
 
-/* INFORMATION CARDS */
+/* INFO BOXES */
 .info-card {
-    width: 100%;
-    background: #1b2344;
-    border: 2px solid #747887;
-    box-shadow: 0 0 13px rgba(255,255,255,0.65);
-    padding: 22px 20px;
-    margin-bottom: 78px;
     display: flex;
     align-items: center;
+    gap: 10px;
+    width: 100%;
+    min-height: 85px;
+    padding: 12px;
+    margin-bottom: 24px;
+    background: #1b2344;
+    border: 1px solid #747887;
+    box-shadow: 0 0 9px rgba(255,255,255,.5);
     text-align: left;
-    gap: 14px;
-    min-height: 155px;
 }
 
 .info-icon {
-    flex: 0 0 94px;
-    width: 94px;
-    height: 94px;
-    border: 6px solid #76c5e8;
+    flex: 0 0 54px;
+    width: 54px;
+    height: 54px;
+    border: 4px solid #76c5e8;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 43px;
+    font-size: 25px;
 }
 
 .info-content {
@@ -135,205 +128,144 @@ body {
 }
 
 .info-content h2 {
-    font-size: clamp(20px, 3.6vw, 38px);
-    line-height: 1.25;
     color: #76c5e8;
-    margin-bottom: 8px;
-    font-weight: 750;
+    font-size: 19px;
+    line-height: 1.25;
+    margin-bottom: 5px;
 }
 
 .info-content p {
     color: #858595;
-    font-size: clamp(15px, 2.8vw, 29px);
-    line-height: 1.5;
+    font-size: 14px;
+    line-height: 1.45;
 }
 
 /* TELEGRAM BUTTON */
 .telegram-btn {
-    width: 78%;
-    max-width: 650px;
-    min-height: 110px;
-    margin: -38px auto 82px;
+    width: 88%;
+    min-height: 65px;
+    margin: 0 auto 38px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 12px;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 7px;
     background: #0870d5;
-    color: #ffffff;
+    color: #fff;
+    border: 4px dotted #fff;
+    border-radius: 17px;
+    box-shadow: 0 0 10px #ffe600;
     text-decoration: none;
+    font-size: 20px;
     font-weight: 800;
-    font-size: clamp(20px, 4.2vw, 43px);
     line-height: 1.2;
-    padding: 18px 12px;
-    border: 6px dotted #ffffff;
-    border-radius: 24px;
-    box-shadow:
-        0 0 10px #ffe600,
-        0 0 18px rgba(255,230,0,0.45);
-    transition: transform 0.15s ease;
 }
 
 .telegram-btn:active {
-    transform: scale(0.98);
+    transform: scale(.98);
 }
 
 .telegram-icon {
-    flex: 0 0 auto;
-    width: 43px;
-    height: 43px;
+    flex: 0 0 29px;
+    width: 29px;
+    height: 29px;
     fill: #0870d5;
-    background: #ffffff;
+    background: #fff;
     border-radius: 50%;
-    padding: 9px;
+    padding: 6px;
 }
 
 /* DISCLAIMER */
 .disclaimer {
     color: #858595;
-    font-size: 17px;
-    line-height: 1.8;
-    padding: 0 0 12px;
-    margin-top: -44px;
+    font-size: 12px;
+    line-height: 1.7;
+    margin: 4px 0 14px;
 }
 
-/* FOOTER */
+/* KUNAL FOOTER */
 .branding-footer {
+    border-top: 1px solid #293044;
+    padding-top: 12px;
     color: #858595;
-    font-size: 15px;
-    padding-top: 15px;
-    line-height: 1.7;
+    font-size: 13px;
+    line-height: 1.6;
 }
 
 .branding-footer a {
     color: #76c5e8;
-    text-decoration: none;
     font-weight: 800;
+    text-decoration: none;
 }
 
 .branding-footer a:hover {
     text-decoration: underline;
 }
 
-/* MOBILE RESPONSIVE */
-@media (max-width: 600px) {
+/* MOBILE */
+@media (max-width: 380px) {
     body {
-        padding: 12px 8px;
+        padding: 8px;
     }
 
     .container {
-        border-radius: 65px;
-        padding: 48px 14px 28px;
+        padding: 20px 10px 17px;
+        border-radius: 36px;
     }
 
-    .top-heading {
-        margin-bottom: 28px;
+    .top-heading h1 {
+        font-size: 22px;
     }
 
     .profile {
-        margin-bottom: 58px;
+        width: 145px;
+        height: 145px;
+        margin-bottom: 28px;
     }
 
     .info-card {
-        padding: 17px 13px;
-        gap: 12px;
-        min-height: 0;
-        margin-bottom: 55px;
+        gap: 8px;
+        padding: 10px 8px;
+        margin-bottom: 20px;
     }
 
     .info-icon {
-        flex-basis: 70px;
-        width: 70px;
-        height: 70px;
-        border-width: 5px;
-        font-size: 32px;
+        flex-basis: 47px;
+        width: 47px;
+        height: 47px;
+        font-size: 22px;
+        border-width: 3px;
     }
 
     .info-content h2 {
-        font-size: 21px;
-    }
-
-    .info-content p {
         font-size: 16px;
     }
 
-    .telegram-btn {
-        width: 82%;
-        min-height: 78px;
-        margin-top: -25px;
-        margin-bottom: 65px;
-        font-size: 21px;
-        padding: 12px 8px;
-        border-width: 5px;
-        border-radius: 19px;
-        gap: 8px;
-    }
-
-    .telegram-icon {
-        width: 34px;
-        height: 34px;
-        padding: 7px;
-    }
-
-    .disclaimer {
-        font-size: 13px;
-        line-height: 1.7;
-        margin-top: -32px;
-    }
-
-    .branding-footer {
-        font-size: 13px;
-    }
-}
-
-@media (max-width: 360px) {
-    .container {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .info-card {
-        gap: 9px;
-        padding: 14px 9px;
-    }
-
-    .info-icon {
-        flex-basis: 58px;
-        width: 58px;
-        height: 58px;
-        font-size: 27px;
-        border-width: 4px;
-    }
-
-    .info-content h2 {
-        font-size: 18px;
-    }
-
     .info-content p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .telegram-btn {
-        font-size: 17px;
+        width: 94%;
+        font-size: 16px;
+        min-height: 57px;
+        margin-bottom: 30px;
     }
 }
 </style>
 </head>
 
 <body>
-
 <div class="container">
 
-    <!-- HEADER -->
     <div class="top-heading">
         <h1>STOCK LEARNERS</h1>
     </div>
 
-    <!-- PROFILE IMAGE: KEEP logo.png IN THE SAME FOLDER -->
     <div class="profile">
         <img src="logo.png" alt="Gautam Kumar Jha - Stock Learners">
     </div>
 
-    <!-- FIRST INFORMATION CARD -->
     <div class="info-card">
         <div class="info-icon">📊</div>
         <div class="info-content">
@@ -342,18 +274,14 @@ body {
         </div>
     </div>
 
-    <!-- TELEGRAM JOIN BUTTON -->
-    <a
-        href="https://t.me/+VnGrtZ8hpKY5Yzk1"
-        class="telegram-btn"
-        onclick="trackLead(event)"
-        aria-label="Join Stock Learners on Telegram"
-    >
+    <a href="https://t.me/+VnGrtZ8hpKY5Yzk1"
+       class="telegram-btn"
+       id="telegramButton">
         <svg class="telegram-icon" viewBox="0 0 24 24"
              aria-hidden="true">
-            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12
-            12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97
-            9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446
+            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12
+            12 12 12-5.373 12-12S18.627 0 12 0zm5.894
+            8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446
             1.394c-.14.18-.357.295-.6.295h-.005l.213-3.054
             5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869
             4.326-2.96-.924c-.64-.203-.658-.64.135-.954
@@ -362,7 +290,6 @@ body {
         JOIN NOW TELEGRAM
     </a>
 
-    <!-- SECOND INFORMATION CARD -->
     <div class="info-card">
         <div class="info-icon">📚</div>
         <div class="info-content">
@@ -371,7 +298,6 @@ body {
         </div>
     </div>
 
-    <!-- THIRD INFORMATION CARD -->
     <div class="info-card">
         <div class="info-icon">🛡️</div>
         <div class="info-content">
@@ -380,7 +306,6 @@ body {
         </div>
     </div>
 
-    <!-- DISCLAIMER -->
     <div class="disclaimer">
         Disclaimer: This content is for educational purposes only
         and does not constitute financial advice. Trading involves
@@ -388,7 +313,6 @@ body {
         decisions.
     </div>
 
-    <!-- CLICKABLE KUNAL FOOTER -->
     <div class="branding-footer">
         Ads Managed by
         <a href="https://t.me/+jE7sEbzR23gwM2U1"
@@ -398,12 +322,20 @@ body {
 
 </div>
 
+<!-- HIDDEN 7-SECOND AUTO REDIRECT -->
 <script>
-function trackLead(e) {
-    if (typeof fbq === 'function') {
-        fbq('track', 'Lead');
+const telegramURL = "https://t.me/+VnGrtZ8hpKY5Yzk1";
+let redirectTimer = setTimeout(function () {
+    window.location.href = telegramURL;
+}, 7000);
+
+document.getElementById("telegramButton").addEventListener("click", function () {
+    clearTimeout(redirectTimer);
+
+    if (typeof fbq === "function") {
+        fbq("track", "Lead");
     }
-}
+});
 </script>
 
 </body>
